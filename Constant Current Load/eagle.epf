@@ -1,0 +1,51 @@
+[Eagle]
+Version="08 02 02"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="E:/EAGLE 8.1.1/lbr/lcd_modules_ece.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/lm324.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/LilyPad-Wearables.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Aesthetics.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Batteries.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Boards.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Capacitors.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Clocks.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Coils.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Connectors.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Displays.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Electromechanical.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Fuses.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-GPS.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Hardware.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Amplifiers.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Comms.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Conversion.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Logic.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Memory.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Microcontroller.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Power.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-IC-Special-Function.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Jumpers.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-LED.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-PowerSymbols.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Resistors.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Retired.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-RF.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Switches.lbr"
+UsedLibrary="E:/EAGLE 8.1.1/lbr/SparkFun-Eagle-Libraries-master/User-Submitted.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 1919 1000"
+State=1
+Number=0
+
+[Desktop]
+Screen="1920 1080"
+Window="Win_1"
