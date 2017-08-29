@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27093,10 +27093,11 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="R11" library="rcl" deviceset="R-TRIMM" device="64W" value="100k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="resistor" deviceset="R-EU_" device="0207/7" value="22k"/>
-<part name="R13" library="rcl" deviceset="R-TRIMM" device="64W" value="100k"/>
+<part name="AREF_SET" library="rcl" deviceset="R-TRIMM" device="64W" value="100k"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="5VREG" library="SparkFun-IC-Power" deviceset="V_REG_78XX" device="7812" value="7805"/>
-<part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_78XX" device="7812" value="+12v"/>
+<part name="7812" library="SparkFun-IC-Power" deviceset="V_REG_78XX" device="7812" value="+12v"/>
+<part name="VREGOUT2" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -27336,7 +27337,10 @@ Spark Fun Electronics SKU : COM-00107</description>
 <attribute name="VALUE" x="22.3774" y="100.203" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+17" gate="1" x="-31.75" y="109.22"/>
-<instance part="U1" gate="G$1" x="2.54" y="106.68"/>
+<instance part="7812" gate="G$1" x="2.54" y="106.68" smashed="yes">
+<attribute name="NAME" x="2.54" y="111.76" size="1.778" layer="95"/>
+<attribute name="VALUE" x="2.54" y="109.22" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27381,7 +27385,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="VREGIN1" gate="G$1" pin="2"/>
 <junction x="2.54" y="99.06"/>
 <junction x="-10.16" y="99.06"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="7812" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -27400,7 +27404,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="-31.75" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-10.16" y="106.68"/>
 <pinref part="P+17" gate="1" pin="V+"/>
-<pinref part="U1" gate="G$1" pin="IN"/>
+<pinref part="7812" gate="G$1" pin="IN"/>
 <wire x1="-5.08" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27411,7 +27415,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="2.54" y1="71.12" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="12V_JACK_INPUT" class="0">
 <segment>
 <pinref part="POW_SLECTION_JUMPER" gate="A" pin="1"/>
 <wire x1="-12.7" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -27442,7 +27446,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="POW_SLECTION_JUMPER" gate="A" pin="3"/>
 <wire x1="5.08" y1="63.5" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="26.67" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT"/>
+<pinref part="7812" gate="G$1" pin="OUT"/>
 <wire x1="10.16" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27513,11 +27517,15 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="J1" gate="G$1" x="-2.54" y="99.06" rot="MR180"/>
 <instance part="R11" gate="G$1" x="124.46" y="53.34" rot="R180"/>
 <instance part="GND9" gate="1" x="124.46" y="43.18"/>
-<instance part="R13" gate="G$1" x="124.46" y="86.36" rot="MR0"/>
+<instance part="AREF_SET" gate="G$1" x="124.46" y="86.36" rot="MR0"/>
 <instance part="GND23" gate="1" x="124.46" y="76.2"/>
 <instance part="5VREG" gate="G$1" x="71.12" y="142.24" smashed="yes">
 <attribute name="NAME" x="69.85" y="148.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.12" y="146.05" size="1.778" layer="96"/>
+</instance>
+<instance part="VREGOUT2" gate="G$1" x="45.72" y="139.7" smashed="yes">
+<attribute name="NAME" x="50.3174" y="135.763" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="52.8574" y="135.763" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -27558,7 +27566,7 @@ Atmega with ftdi and arduino bootloader</text>
 <wire x1="78.74" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="E"/>
+<pinref part="AREF_SET" gate="G$1" pin="E"/>
 <wire x1="124.46" y1="91.44" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 <label x="124.46" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -27616,6 +27624,8 @@ Atmega with ftdi and arduino bootloader</text>
 <junction x="58.42" y="134.62"/>
 <junction x="71.12" y="134.62"/>
 <pinref part="5VREG" gate="G$1" pin="GND"/>
+<pinref part="VREGOUT2" gate="G$1" pin="-"/>
+<junction x="45.72" y="134.62"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="E"/>
@@ -27624,7 +27634,7 @@ Atmega with ftdi and arduino bootloader</text>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="R13" gate="G$1" pin="A"/>
+<pinref part="AREF_SET" gate="G$1" pin="A"/>
 <wire x1="124.46" y1="78.74" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27825,7 +27835,7 @@ Atmega with ftdi and arduino bootloader</text>
 <label x="35.56" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="S"/>
+<pinref part="AREF_SET" gate="G$1" pin="S"/>
 <wire x1="119.38" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <label x="116.84" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -27862,10 +27872,13 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="P+13" gate="1" pin="+12V"/>
 <wire x1="33.02" y1="144.78" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="VREGIN2" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
 <junction x="58.42" y="142.24"/>
 <pinref part="5VREG" gate="G$1" pin="IN"/>
+<wire x1="45.72" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="VREGOUT2" gate="G$1" pin="+"/>
+<junction x="45.72" y="142.24"/>
 </segment>
 </net>
 <net name="LCD_D4" class="0">
