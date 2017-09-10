@@ -152,7 +152,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -30354,13 +30354,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="LCD_POW_RES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="220"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="LCD_BAK_RES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="220"/>
+<part name="BACK_RES" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="220"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="LCD_CONTRAST" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" value="50k"/>
+<part name="CONTRAST" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" value="50k"/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="BACKLIGHT_E" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="BACKLIGHT" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="POW_SELECT" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PULLDOWN0" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="30K"/>
@@ -30390,6 +30390,11 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="VREGOUT2" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="C1POWER1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="C1POWER2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30666,6 +30671,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="VREGOUT2" gate="G$1" pin="-"/>
 <wire x1="-15.24" y1="45.72" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="45.72" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-15.24" y="45.72"/>
 </segment>
 <segment>
 <pinref part="PULLDOWN1" gate="G$1" pin="1"/>
@@ -30833,6 +30839,13 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="P+1" gate="1" x="-25.4" y="104.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-30.48" y="101.6" size="1.778" layer="96"/>
 </instance>
+<instance part="C1POWER1" gate="G$1" x="-12.7" y="55.88"/>
+<instance part="P+9" gate="1" x="-12.7" y="66.04" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="60.96" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND25" gate="1" x="-12.7" y="43.18"/>
+<instance part="C1POWER2" gate="G$1" x="111.76" y="83.82"/>
+<instance part="GND26" gate="1" x="111.76" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -30880,6 +30893,11 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="J2" gate="G$1" pin="VCC"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="-30.48" y1="104.14" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1POWER1" gate="G$1" pin="1"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<wire x1="-12.7" y1="58.42" x2="-12.7" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -30958,6 +30976,16 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="AREF_SET" gate="1" pin="E"/>
 <wire x1="124.46" y1="78.74" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="C1POWER1" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="45.72" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1POWER2" gate="G$1" pin="2"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="111.76" y1="76.2" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CRYSTAL1" class="0">
@@ -31176,8 +31204,11 @@ Atmega with ftdi and arduino bootloader</text>
 </segment>
 <segment>
 <pinref part="AREF_SET" gate="1" pin="S"/>
-<wire x1="119.38" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
-<label x="116.84" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<label x="106.68" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C1POWER2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<junction x="111.76" y="86.36"/>
 </segment>
 </net>
 <net name="CTS" class="0">
@@ -31258,9 +31289,9 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="GND15" gate="1" x="22.86" y="73.66" rot="R270"/>
 <instance part="LCD_POW_RES" gate="G$1" x="7.62" y="66.04"/>
 <instance part="GND16" gate="1" x="7.62" y="58.42" rot="R270"/>
-<instance part="LCD_BAK_RES" gate="G$1" x="22.86" y="25.4" rot="R90"/>
+<instance part="BACK_RES" gate="G$1" x="22.86" y="25.4" rot="R90"/>
 <instance part="GND17" gate="1" x="22.86" y="15.24"/>
-<instance part="LCD_CONTRAST" gate="1" x="-36.825290625" y="64.38225" smashed="yes">
+<instance part="CONTRAST" gate="1" x="-36.825290625" y="64.38225" smashed="yes">
 <attribute name="NAME" x="-42.794290625" y="60.57225" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-40.635290625" y="60.57225" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -31271,7 +31302,7 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="P+16" gate="1" x="-48.26" y="33.02" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-43.18" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BACKLIGHT_E" gate="G$1" x="-35.56" y="35.56" smashed="yes" rot="R90">
+<instance part="BACKLIGHT" gate="G$1" x="-35.56" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="-41.91" y="26.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-30.48" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -31306,13 +31337,13 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="LCD1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<pinref part="LCD_BAK_RES" gate="G$1" pin="1"/>
+<pinref part="BACK_RES" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="22.86" y1="20.32" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="LCD_CONTRAST" gate="1" pin="A"/>
+<pinref part="CONTRAST" gate="1" pin="A"/>
 <wire x1="-35.56" y1="58.42" x2="-36.825290625" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-36.825290625" y1="58.42" x2="-36.825290625" y2="59.30225" width="0.1524" layer="91"/>
 </segment>
@@ -31320,7 +31351,7 @@ Atmega with ftdi and arduino bootloader</text>
 <net name="N$6" class="0">
 <segment>
 <wire x1="25.4" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="LCD_CONTRAST" gate="1" pin="S"/>
+<pinref part="CONTRAST" gate="1" pin="S"/>
 <wire x1="-31.745290625" y1="64.38225" x2="-15.24" y2="64.38225" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="64.38225" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LCD1" gate="G$1" pin="VO"/>
@@ -31334,14 +31365,14 @@ Atmega with ftdi and arduino bootloader</text>
 </segment>
 <segment>
 <pinref part="P+15" gate="1" pin="+5V"/>
-<pinref part="LCD_CONTRAST" gate="1" pin="E"/>
+<pinref part="CONTRAST" gate="1" pin="E"/>
 <wire x1="-35.56" y1="73.66" x2="-36.825290625" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-36.825290625" y1="71.12" x2="-36.825290625" y2="69.46225" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+16" gate="1" pin="+5V"/>
 <wire x1="-45.72" y1="33.02" x2="-38.1" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="BACKLIGHT_E" gate="G$1" pin="1"/>
+<pinref part="BACKLIGHT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -31381,7 +31412,7 @@ Atmega with ftdi and arduino bootloader</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="LCD_BAK_RES" gate="G$1" pin="2"/>
+<pinref part="BACK_RES" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="LCD1" gate="G$1" pin="K"/>
 </segment>
@@ -31390,7 +31421,7 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <wire x1="25.4" y1="33.02" x2="-35.56" y2="33.02" width="0.1524" layer="91"/>
 <label x="-20.32" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="BACKLIGHT_E" gate="G$1" pin="2"/>
+<pinref part="BACKLIGHT" gate="G$1" pin="2"/>
 <pinref part="LCD1" gate="G$1" pin="A"/>
 </segment>
 </net>
@@ -31412,6 +31443,7 @@ Atmega with ftdi and arduino bootloader</text>
 <approved hash="104,4,25.4,30.48,LCD1,K,N$14,,,"/>
 <approved hash="104,4,25.4,66.04,LCD1,VDD,N$7,,,"/>
 <approved hash="104,4,25.4,68.58,LCD1,VSS,GND,,,"/>
+<approved hash="104,3,-30.48,104.14,J2,VCC,+5V,,,"/>
 <approved hash="106,3,73.66,50.8,A3,,,,,"/>
 <approved hash="106,3,73.66,48.26,A4,,,,,"/>
 <approved hash="106,3,73.66,45.72,A5,,,,,"/>
@@ -31420,10 +31452,11 @@ Atmega with ftdi and arduino bootloader</text>
 <approved hash="106,3,38.1,66.04,D9,,,,,"/>
 <approved hash="106,3,38.1,63.5,D10,,,,,"/>
 <approved hash="105,3,83.82,3.81,N$3,,,,,"/>
-<approved hash="108,3,60.96,99.06,GND,,,,,"/>
 <approved hash="113,2,54.5147,53.34,X1,,,,,"/>
 <approved hash="113,3,55.88,103.751,RESET,,,,,"/>
-<approved hash="113,2,1.13877,74.1678,POW_SLECTION_JUMPER,,,,,"/>
+<approved hash="113,4,-33.9213,31.6696,BACKLIGHT_E,,,,,"/>
+<approved hash="113,2,-6.01061,63.8598,POW_SELECT,,,,,"/>
+<approved hash="113,2,-21.4588,106.443,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

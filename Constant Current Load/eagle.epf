@@ -383,10 +383,10 @@ UsedLibrary="E:/EAGLE 8.2.2/lbr/SparkFun-Eagle-Libraries-master/User-Submitted.l
 
 [Win_1]
 Type="Control Panel"
-Loc="-9 -9 1910 991"
+Loc="0 0 1919 1000"
 State=1
 Number=0
 
 [Desktop]
-Screen="3200 1080"
+Screen="1920 1080"
 Window="Win_1"
