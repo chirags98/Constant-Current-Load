@@ -1,0 +1,96 @@
+
+
+   ---- Transcoding 'E:\EAGLE 8.2.2\My projects\Constant-Current-Load\Constant Current Load\gerbers\load.GBS' ----   Mon Sep 11 21:28:42 2017
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D21   --> D111
+D22   --> D112
+D23   --> D113
+D24   --> D114
+D25   --> D115
+D26   --> D116
+D27   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\EAGLE 8.2.2\My projects\Constant-Current-Load\Constant Current Load\gerbers\load.GTL' ----   Mon Sep 11 21:28:42 2017
+
+D10   --> D118
+D11   --> D119
+D12   --> D120
+D13   --> D121
+D14   --> D122
+D15   --> D123
+D16   --> D124
+D17   --> D125
+D18   --> D126
+D19   --> D127
+D20   --> D128
+D21   --> D129
+D22   --> D130
+D23   --> D131
+D24   --> D132
+D25   --> D133
+D26   --> D134
+D27   --> D135
+D28   --> D136
+D29   --> D137
+D30   --> D138
+D31   --> D139
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\EAGLE 8.2.2\My projects\Constant-Current-Load\Constant Current Load\gerbers\load.GTO' ----   Mon Sep 11 21:28:42 2017
+
+D10   --> D140
+D11   --> D141
+D12   --> D142
+D13   --> D143
+D14   --> D144
+D15   --> D145
+D16   --> D146
+D17   --> D147
+D18   --> D148
+D19   --> D149
+D20   --> D150
+D21   --> D151
+D22   --> D152
+D23   --> D153
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'E:\EAGLE 8.2.2\My projects\Constant-Current-Load\Constant Current Load\gerbers\load.GTS' ----   Mon Sep 11 21:28:42 2017
+
+D10   --> D154
+D11   --> D155
+D12   --> D156
+D13   --> D157
+D14   --> D158
+D15   --> D159
+D16   --> D160
+D17   --> D161
+D18   --> D162
+D19   --> D163
+D20   --> D164
+D21   --> D165
+D22   --> D166
+D23   --> D167
+D24   --> D168
+D25   --> D169
+D26   --> D170
+D27   --> D171
+D28   --> D172
+D29   --> D173
+D30   --> D174
+D31   --> D175
+-----------------------------------------------------------------
