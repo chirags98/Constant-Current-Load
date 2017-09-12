@@ -30320,7 +30320,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="CURRENT_SET" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" value="10k"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
-<part name="X1" library="con-ptr500" deviceset="AK500/2-H" device=""/>
+<part name="LOAD" library="con-ptr500" deviceset="AK500/2-H" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
@@ -30638,8 +30638,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="-1" x="53.34" y="53.34"/>
-<instance part="X1" gate="-2" x="53.34" y="48.26"/>
+<instance part="LOAD" gate="-1" x="53.34" y="53.34"/>
+<instance part="LOAD" gate="-2" x="53.34" y="48.26"/>
 <instance part="GND4" gate="1" x="63.5" y="43.18"/>
 <instance part="P+4" gate="1" x="63.5" y="58.42"/>
 <instance part="P+5" gate="1" x="2.54" y="73.66"/>
@@ -30677,7 +30677,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X1" gate="-2" pin="KL"/>
+<pinref part="LOAD" gate="-2" pin="KL"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="58.42" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="48.26" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
@@ -30724,7 +30724,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="V+" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="KL"/>
+<pinref part="LOAD" gate="-1" pin="KL"/>
 <pinref part="P+4" gate="1" pin="V+"/>
 <wire x1="58.42" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="53.34" x2="63.5" y2="55.88" width="0.1524" layer="91"/>

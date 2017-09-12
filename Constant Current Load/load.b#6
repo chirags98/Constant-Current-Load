@@ -5739,7 +5739,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R8" library="rcl" package="0207/12" value="10" x="39.116" y="22.352" rot="R90"/>
 <element name="R9" library="rcl" package="0207/12" value="10" x="61.976" y="22.352" rot="R90"/>
 <element name="OPAMP" library="lm324" package="DIL14" value="LM324P" x="89.916" y="36.576" smashed="yes" rot="R180">
-<attribute name="NAME" x="87.122" y="31.877" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="86.614" y="29.591" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="96.647" y="37.211" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="CURRENT_SET" library="pot" library_urn="urn:adsk.eagle:library:331" package="S64W" value="10k" x="104.14" y="47.498" rot="R270"/>
@@ -5761,7 +5761,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="74.041" y="40.7924" size="2.0828" layer="27" ratio="10" rot="SR270"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="35.306" y="46.371" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.225" y="45.371" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="37.479" y="45.371" size="1.016" layer="25" rot="R90"/>
 <attribute name="VALUE" x="37.206" y="45.371" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value="22pF" x="56.896" y="46.339" smashed="yes" rot="R270">
@@ -5769,7 +5769,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="54.996" y="47.339" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value="22pF" x="42.164" y="46.339" smashed="yes" rot="R270">
-<attribute name="NAME" x="40.245" y="47.085" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="39.991" y="47.085" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="40.264" y="47.339" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="CRYSTAL" library="crystal" package="HC49U70" value="16MHz" x="49.53" y="45.212" smashed="yes" rot="R180">
@@ -5787,15 +5787,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="OC_NEWARK" value="36M3542" x="33.782" y="-7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="M0805" value="10k" x="81.28" y="26.228" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.01" y="24.958" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="79.756" y="26.228" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="83.82" y="24.958" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value="0.33µF" x="83.82" y="26.146" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.203" y="27.146" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="85.203" y="28.67" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="81.92" y="27.146" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uf" x="71.12" y="46.339" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.249" y="47.593" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="72.249" y="47.085" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.22" y="47.339" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C12" library="resistor" package="E2,5-6" value="10uf" x="75.692" y="40.386" smashed="yes" rot="R90">
@@ -5816,7 +5816,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="44.704" y="52.197" size="1.27" layer="27"/>
 </element>
 <element name="POW_SELECT" library="pinhead" package="1X03" value="" x="70.104" y="67.056" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.2752" y="62.1538" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="68.2752" y="62.1538" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="73.279" y="63.246" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="M0805" value="30K" x="74.4474" y="51.3486" smashed="yes" rot="R90">
@@ -5842,7 +5842,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="83.312" y="19.939" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM" value="1000uF" x="45.212" y="65.024" smashed="yes" rot="R270">
-<attribute name="NAME" x="45.212" y="71.501" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="45.212" y="71.501" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-09538" x="45.212" y="65.024" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.005" y="65.024" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -5855,14 +5855,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="60.325" y="55.118" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="65.659" y="60.071" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C2" library="rcl" package="E2,5-6E" value="10u" x="27.94" y="39.116" rot="R90"/>
+<element name="C2" library="rcl" package="E2,5-6E" value="10u" x="27.94" y="39.116" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.416" y="41.783" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="30.48" y="41.783" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="GATE_V" library="pot" library_urn="urn:adsk.eagle:library:331" package="S64W" value="100k" x="16.002" y="37.338" smashed="yes">
-<attribute name="NAME" x="10.3378" y="35.052" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="10.5918" y="34.798" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="11.2014" y="34.417" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="M0805" value="15K" x="95.758" y="46.294" rot="R90"/>
 <element name="AREF" library="pot" library_urn="urn:adsk.eagle:library:331" package="S64W" value="100k" x="16.002" y="43.688" smashed="yes">
-<attribute name="NAME" x="10.3378" y="42.672" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="10.8458" y="41.91" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="11.2014" y="40.767" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="7805" library="SparkFun-IC-Power" package="TO-252" value="5V" x="101.6" y="65.786" smashed="yes">
@@ -5887,8 +5890,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="60.5028" y="70.4342" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="60.579" y="70.866" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="48.006" y="30.988" rot="R180"/>
-<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="23.114" y="40.132" rot="R270"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="48.006" y="30.988" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.958" y="31.129" size="1.016" layer="25" rot="R180"/>
+<attribute name="VALUE" x="49.006" y="32.888" size="1.016" layer="27" rot="R180"/>
+</element>
+<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="23.114" y="40.132" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.465" y="44.434" size="1.016" layer="25" rot="R270"/>
+<attribute name="VALUE" x="21.214" y="41.132" size="1.016" layer="27" rot="R270"/>
+</element>
 <element name="HEATSINK" library="heatsink" library_urn="urn:adsk.eagle:library:236" package="SK129-HOLE" value="" x="-1.778" y="37.846" rot="R270"/>
 </elements>
 <signals>

@@ -5728,16 +5728,46 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="1.27" y="43.18" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 <attribute name="VALUE" value="60V/32A/35mΩ" x="1.524" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="rcl" package="0207/12" value="10" x="54.356" y="22.352" rot="R90"/>
-<element name="R10" library="rcl" package="0207/12" value="10" x="35.306" y="22.352" rot="R90"/>
-<element name="R2" library="rcl" package="0207/12" value="10" x="50.546" y="22.352" rot="R90"/>
-<element name="R3" library="rcl" package="0207/12" value="10" x="58.166" y="22.352" rot="R90"/>
-<element name="R4" library="rcl" package="0207/12" value="10" x="46.736" y="22.352" rot="R90"/>
-<element name="R5" library="rcl" package="0207/12" value="10" x="31.496" y="22.352" rot="R90"/>
-<element name="R6" library="rcl" package="0207/12" value="10" x="42.926" y="22.352" rot="R90"/>
-<element name="R7" library="rcl" package="0207/12" value="10" x="65.786" y="22.352" rot="R90"/>
-<element name="R8" library="rcl" package="0207/12" value="10" x="39.116" y="22.352" rot="R90"/>
-<element name="R9" library="rcl" package="0207/12" value="10" x="61.976" y="22.352" rot="R90"/>
+<element name="R1" library="rcl" package="0207/12" value="10" x="54.356" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.131" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="55.0418" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R10" library="rcl" package="0207/12" value="10" x="35.306" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.421" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="35.9918" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R2" library="rcl" package="0207/12" value="10" x="50.546" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.941" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="51.2318" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R3" library="rcl" package="0207/12" value="10" x="58.166" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.751" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="58.8518" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R4" library="rcl" package="0207/12" value="10" x="46.736" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.561" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="47.4218" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R5" library="rcl" package="0207/12" value="10" x="31.496" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.371" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="32.1818" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R6" library="rcl" package="0207/12" value="10" x="42.926" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.181" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="43.6118" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R7" library="rcl" package="0207/12" value="10" x="65.786" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.991" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="66.4718" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R8" library="rcl" package="0207/12" value="10" x="39.116" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.801" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="39.8018" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R9" library="rcl" package="0207/12" value="10" x="61.976" y="22.352" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.611" y="19.431" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="62.6618" y="20.066" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="OPAMP" library="lm324" package="DIL14" value="LM324P" x="89.916" y="36.576" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.614" y="29.591" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="96.647" y="37.211" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -5775,7 +5805,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="CRYSTAL" library="crystal" package="HC49U70" value="16MHz" x="49.53" y="45.212" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.578" y="49.657" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="52.324" y="44.323" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="OC_FARNELL" value="unknown" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.61" y="49.657" size="1.27" layer="27" ratio="10" rot="R180"/>

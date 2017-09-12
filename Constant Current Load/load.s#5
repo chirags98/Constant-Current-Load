@@ -30348,7 +30348,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uf"/>
-<part name="V12" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
+<part name="C12" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
 <part name="P+13" library="supply1" deviceset="+12V" device=""/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -30850,7 +30850,7 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="C13" gate="G$1" x="58.42" y="139.7" smashed="yes">
 <attribute name="NAME" x="64.516" y="131.699" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="V12" gate="G$1" x="83.82" y="139.7" smashed="yes">
+<instance part="C12" gate="G$1" x="83.82" y="139.7" smashed="yes">
 <attribute name="NAME" x="88.4174" y="135.763" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="90.9574" y="135.763" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -30915,7 +30915,7 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <pinref part="P+12" gate="1" pin="+5V"/>
 <wire x1="83.82" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="V12" gate="G$1" pin="+"/>
+<pinref part="C12" gate="G$1" pin="+"/>
 <junction x="83.82" y="142.24"/>
 <pinref part="7805" gate="G$1" pin="OUT"/>
 <wire x1="78.74" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
@@ -30981,7 +30981,7 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="71.12" y1="132.08" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="V12" gate="G$1" pin="-"/>
+<pinref part="C12" gate="G$1" pin="-"/>
 <wire x1="83.82" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <junction x="83.82" y="134.62"/>
 <wire x1="71.12" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>

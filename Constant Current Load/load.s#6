@@ -30326,7 +30326,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="UC" library="Atmel_By_element14_Batch_1-00" deviceset="ATMEGA328P-PU" device=""/>
-<part name="C1POWER" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="22pF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="22pF"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
@@ -30340,15 +30340,15 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="RESET" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="RESETPULLUP" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="RESETCAP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="0.33µF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="0.33µF"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="VREGIN2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uf"/>
-<part name="VREGOUT" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uf"/>
+<part name="V12" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
 <part name="P+13" library="supply1" deviceset="+12V" device=""/>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -30368,8 +30368,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="20K"/>
 <part name="12V" library="SparkFun-Connectors" deviceset="POWER_JACK" device=""/>
 <part name="LOAD_JACK" library="SparkFun-Connectors" deviceset="POWER_JACK" device=""/>
-<part name="LCD1" library="SparkFun-Displays" deviceset="LCD-16X2" device="NOSILK"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_CABLE" device="PTH"/>
+<part name="LCD" library="SparkFun-Displays" deviceset="LCD-16X2" device="NOSILK"/>
+<part name="FTDI" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_CABLE" device="PTH"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" value="1000uF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="V+" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" value="100k"/>
@@ -30383,17 +30383,17 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M0805" value="15K"/>
 <part name="AREF" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="S64W" value="100k"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="5VREG" library="SparkFun-IC-Power" deviceset="V_REG_78XX" device="7812" value="7805"/>
+<part name="7805" library="SparkFun-IC-Power" deviceset="V_REG_78XX" device="7812" value="5V"/>
 <part name="7812" library="SparkFun-IC-Power" deviceset="V_REG_78XX" device="7812" value="+12v"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_5X2" device="PTH2"/>
+<part name="ASP" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_5X2" device="PTH2"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="C1POWER1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="C1POWER2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -30807,7 +30807,7 @@ Atmega with ftdi and arduino bootloader</text>
 <attribute name="NAME" x="54.1274" y="83.7438" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="45.8216" y="38.8112" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="C1POWER" gate="G$1" x="2.54" y="55.88"/>
+<instance part="C9" gate="G$1" x="2.54" y="55.88"/>
 <instance part="C3" gate="G$1" x="17.78" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.256" y="9.779" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -30834,12 +30834,12 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="GND11" gate="1" x="30.48" y="0"/>
 <instance part="RESET" gate="1" x="55.88" y="101.6" rot="R270"/>
 <instance part="GND12" gate="1" x="63.5" y="96.52"/>
-<instance part="RESETPULLUP" gate="G$1" x="55.88" y="114.3"/>
+<instance part="R17" gate="G$1" x="55.88" y="114.3"/>
 <instance part="P+10" gate="1" x="40.64" y="114.3" smashed="yes" rot="R90">
 <attribute name="VALUE" x="45.72" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND13" gate="1" x="10.16" y="88.9"/>
-<instance part="RESETCAP" gate="G$1" x="7.62" y="76.2"/>
+<instance part="C10" gate="G$1" x="7.62" y="76.2"/>
 <instance part="P+11" gate="1" x="20.32" y="96.52" smashed="yes" rot="R270">
 <attribute name="VALUE" x="15.24" y="93.98" size="1.778" layer="96"/>
 </instance>
@@ -30847,34 +30847,40 @@ Atmega with ftdi and arduino bootloader</text>
 <instance part="P+12" gate="1" x="101.6" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="96.52" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="VREGIN2" gate="G$1" x="58.42" y="139.7" smashed="yes">
+<instance part="C13" gate="G$1" x="58.42" y="139.7" smashed="yes">
 <attribute name="NAME" x="64.516" y="131.699" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="VREGOUT" gate="G$1" x="83.82" y="139.7" smashed="yes">
+<instance part="V12" gate="G$1" x="83.82" y="139.7" smashed="yes">
 <attribute name="NAME" x="88.4174" y="135.763" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="90.9574" y="135.763" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+13" gate="1" x="33.02" y="147.32"/>
-<instance part="J1" gate="G$1" x="-2.54" y="99.06" rot="MR180"/>
+<instance part="FTDI" gate="G$1" x="-2.54" y="99.06" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="-7.62" y="108.966" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="-7.62" y="88.392" size="1.778" layer="95" font="vector" rot="MR180"/>
+</instance>
 <instance part="GATE_V" gate="1" x="124.46" y="53.34" rot="R180"/>
 <instance part="GND9" gate="1" x="124.46" y="43.18"/>
 <instance part="AREF" gate="1" x="124.46" y="86.36" rot="R180"/>
 <instance part="GND23" gate="1" x="124.46" y="76.2"/>
-<instance part="5VREG" gate="G$1" x="71.12" y="142.24" smashed="yes">
+<instance part="7805" gate="G$1" x="71.12" y="142.24" smashed="yes">
 <attribute name="NAME" x="69.85" y="148.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.12" y="146.05" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="-40.64" y="99.06"/>
+<instance part="ASP" gate="G$1" x="-40.64" y="99.06" smashed="yes">
+<attribute name="NAME" x="-43.18" y="107.188" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-55.626" y="85.344" size="1.778" layer="96" font="vector"/>
+</instance>
 <instance part="GND24" gate="1" x="-27.94" y="91.44"/>
 <instance part="P+1" gate="1" x="-25.4" y="104.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-30.48" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="C1POWER1" gate="G$1" x="-12.7" y="55.88"/>
+<instance part="C8" gate="G$1" x="-12.7" y="55.88"/>
 <instance part="P+9" gate="1" x="-12.7" y="66.04" smashed="yes">
 <attribute name="VALUE" x="-10.16" y="60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND25" gate="1" x="-12.7" y="43.18"/>
-<instance part="C1POWER2" gate="G$1" x="111.76" y="83.82"/>
+<instance part="C11" gate="G$1" x="111.76" y="83.82"/>
 <instance part="GND26" gate="1" x="111.76" y="73.66"/>
 </instances>
 <busses>
@@ -30892,26 +30898,26 @@ Atmega with ftdi and arduino bootloader</text>
 <wire x1="33.02" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1POWER" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <wire x1="2.54" y1="58.42" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RESETPULLUP" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="43.18" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="2.54" y1="96.52" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="FTDI" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="1" pin="+5V"/>
 <wire x1="83.82" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="VREGOUT" gate="G$1" pin="+"/>
+<pinref part="V12" gate="G$1" pin="+"/>
 <junction x="83.82" y="142.24"/>
-<pinref part="5VREG" gate="G$1" pin="OUT"/>
+<pinref part="7805" gate="G$1" pin="OUT"/>
 <wire x1="78.74" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30920,12 +30926,12 @@ Atmega with ftdi and arduino bootloader</text>
 <label x="124.46" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="VCC"/>
+<pinref part="ASP" gate="G$1" pin="VCC"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="-30.48" y1="104.14" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1POWER1" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
 <wire x1="-12.7" y1="58.42" x2="-12.7" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -30944,7 +30950,7 @@ Atmega with ftdi and arduino bootloader</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="C1POWER" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="45.72" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -30969,19 +30975,19 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <wire x1="2.54" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="FTDI" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="71.12" y1="132.08" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="VREGOUT" gate="G$1" pin="-"/>
+<pinref part="V12" gate="G$1" pin="-"/>
 <wire x1="83.82" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <junction x="83.82" y="134.62"/>
 <wire x1="71.12" y1="134.62" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="VREGIN2" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <junction x="71.12" y="134.62"/>
-<pinref part="5VREG" gate="G$1" pin="GND"/>
+<pinref part="7805" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GATE_V" gate="1" pin="E"/>
@@ -30990,12 +30996,12 @@ Atmega with ftdi and arduino bootloader</text>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="GND@4"/>
+<pinref part="ASP" gate="G$1" pin="GND@4"/>
 <wire x1="-27.94" y1="93.98" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="GND@3"/>
-<pinref part="J2" gate="G$1" pin="GND@2"/>
+<pinref part="ASP" gate="G$1" pin="GND@3"/>
+<pinref part="ASP" gate="G$1" pin="GND@2"/>
 <wire x1="-30.48" y1="96.52" x2="-30.48" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="GND@1"/>
+<pinref part="ASP" gate="G$1" pin="GND@1"/>
 <wire x1="-30.48" y1="99.06" x2="-30.48" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-30.48" y="99.06"/>
 <wire x1="-30.48" y1="96.52" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
@@ -31009,11 +31015,11 @@ Atmega with ftdi and arduino bootloader</text>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
-<pinref part="C1POWER1" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="45.72" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1POWER2" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="111.76" y1="76.2" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -31109,17 +31115,17 @@ Atmega with ftdi and arduino bootloader</text>
 <junction x="50.8" y="101.6"/>
 </segment>
 <segment>
-<pinref part="RESETPULLUP" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="66.04" y="114.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RESETCAP" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <label x="0" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="7.62" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="RESET"/>
+<pinref part="ASP" gate="G$1" pin="RESET"/>
 <wire x1="-48.26" y1="99.06" x2="-50.8" y2="99.06" width="0.1524" layer="91"/>
 <label x="-50.8" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -31133,7 +31139,7 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <wire x1="2.54" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
 <label x="10.16" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="FTDI" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -31145,7 +31151,7 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <wire x1="2.54" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
 <label x="10.16" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="FTDI" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LCD_D5" class="0">
@@ -31197,7 +31203,7 @@ Atmega with ftdi and arduino bootloader</text>
 <label x="35.56" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="MOSI"/>
+<pinref part="ASP" gate="G$1" pin="MOSI"/>
 <wire x1="-48.26" y1="104.14" x2="-50.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="-50.8" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -31209,7 +31215,7 @@ Atmega with ftdi and arduino bootloader</text>
 <label x="35.56" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="MISO"/>
+<pinref part="ASP" gate="G$1" pin="MISO"/>
 <wire x1="-48.26" y1="93.98" x2="-50.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="-50.8" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -31221,7 +31227,7 @@ Atmega with ftdi and arduino bootloader</text>
 <label x="35.56" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="SCK"/>
+<pinref part="ASP" gate="G$1" pin="SCK"/>
 <wire x1="-48.26" y1="96.52" x2="-50.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="-50.8" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -31236,7 +31242,7 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="AREF" gate="1" pin="S"/>
 <wire x1="119.38" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <label x="106.68" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C1POWER2" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
 <junction x="111.76" y="86.36"/>
 </segment>
@@ -31245,17 +31251,17 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <wire x1="2.54" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
 <label x="10.16" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="FTDI" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="DTR" class="0">
 <segment>
 <wire x1="2.54" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
 <label x="10.16" y="104.14" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="FTDI" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="RESETCAP" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <label x="0" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -31272,9 +31278,9 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <pinref part="P+13" gate="1" pin="+12V"/>
 <wire x1="33.02" y1="144.78" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="VREGIN2" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <junction x="58.42" y="142.24"/>
-<pinref part="5VREG" gate="G$1" pin="IN"/>
+<pinref part="7805" gate="G$1" pin="IN"/>
 <wire x1="33.02" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 </segment>
@@ -31336,7 +31342,7 @@ Atmega with ftdi and arduino bootloader</text>
 <attribute name="NAME" x="-41.91" y="26.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-30.48" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LCD1" gate="G$1" x="35.56" y="48.26"/>
+<instance part="LCD" gate="G$1" x="35.56" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -31345,26 +31351,26 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <wire x1="25.4" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
 <label x="-7.62" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="LCD1" gate="G$1" pin="RS"/>
+<pinref part="LCD" gate="G$1" pin="RS"/>
 </segment>
 </net>
 <net name="LCD_E" class="0">
 <segment>
 <wire x1="25.4" y1="55.88" x2="-7.62" y2="55.88" width="0.1524" layer="91"/>
 <label x="-7.62" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="LCD1" gate="G$1" pin="E"/>
+<pinref part="LCD" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="25.4" y1="58.42" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="LCD1" gate="G$1" pin="R/W"/>
+<pinref part="LCD" gate="G$1" pin="R/W"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="25.4" y1="68.58" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="LCD1" gate="G$1" pin="VSS"/>
+<pinref part="LCD" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -31384,7 +31390,7 @@ Atmega with ftdi and arduino bootloader</text>
 <pinref part="CONTRAST" gate="1" pin="S"/>
 <wire x1="-31.745290625" y1="64.38225" x2="-15.24" y2="64.38225" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="64.38225" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="LCD1" gate="G$1" pin="VO"/>
+<pinref part="LCD" gate="G$1" pin="VO"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -31409,42 +31415,42 @@ Atmega with ftdi and arduino bootloader</text>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="LCD1" gate="G$1" pin="VDD"/>
+<pinref part="LCD" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="LCD_D7" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="-12.7" y2="35.56" width="0.1524" layer="91"/>
 <label x="-12.7" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="LCD1" gate="G$1" pin="DB7"/>
+<pinref part="LCD" gate="G$1" pin="DB7"/>
 </segment>
 </net>
 <net name="LCD_D6" class="0">
 <segment>
 <wire x1="25.4" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
 <label x="-12.7" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="LCD1" gate="G$1" pin="DB6"/>
+<pinref part="LCD" gate="G$1" pin="DB6"/>
 </segment>
 </net>
 <net name="LCD_D5" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 <label x="-12.7" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="LCD1" gate="G$1" pin="DB5"/>
+<pinref part="LCD" gate="G$1" pin="DB5"/>
 </segment>
 </net>
 <net name="LCD_D4" class="0">
 <segment>
 <wire x1="25.4" y1="43.18" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
 <label x="-12.7" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="LCD1" gate="G$1" pin="DB4"/>
+<pinref part="LCD" gate="G$1" pin="DB4"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="LCD1" gate="G$1" pin="K"/>
+<pinref part="LCD" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="LCD_BAK" class="0">
@@ -31452,7 +31458,7 @@ Atmega with ftdi and arduino bootloader</text>
 <wire x1="25.4" y1="33.02" x2="-35.56" y2="33.02" width="0.1524" layer="91"/>
 <label x="-20.32" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="BACKLIGHT" gate="G$1" pin="2"/>
-<pinref part="LCD1" gate="G$1" pin="A"/>
+<pinref part="LCD" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

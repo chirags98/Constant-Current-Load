@@ -5723,7 +5723,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </autorouter>
 <elements>
 <element name="MOSFET" library="SparkFun-DiscreteSemi" package="TO220V" value="60V/32A/35mΩ" x="1.524" y="37.846" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.556" y="37.846" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="3.556" y="37.846" size="1.016" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRANS-10060" x="1.524" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="1.27" y="43.18" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 <attribute name="VALUE" value="60V/32A/35mΩ" x="1.524" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5775,7 +5775,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="CRYSTAL" library="crystal" package="HC49U70" value="16MHz" x="49.53" y="45.212" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.578" y="49.657" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="52.324" y="44.323" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="OC_FARNELL" value="unknown" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="95.25" y="19.812" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="54.61" y="49.657" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -5825,12 +5825,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="M0805" value="20K" x="76.962" y="51.369" rot="R270"/>
 <element name="12V" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACK" x="81.28" y="71.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.9808" y="70.2056" size="1.27" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="74.9808" y="70.2056" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08197" x="81.28" y="71.12" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="83.0326" y="70.3072" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="LOAD_JACK" library="SparkFun-Connectors" package="POWER_JACK_PTH" value="POWER_JACK" x="22.606" y="71.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.7988" y="71.4756" size="1.016" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="15.7988" y="71.4756" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08197" x="70.866" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.3586" y="70.3072" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
@@ -5838,11 +5838,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="SF_ID" value="LCD-00255" x="62.23" y="34.29" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FTDI" library="SparkFun-Connectors" package="FTDI_BASIC" value="6_PIN_SERIAL_CABLEPTH" x="87.884" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="83.312" y="15.875" size="1.016" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="83.312" y="15.875" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="83.312" y="19.939" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM" value="1000uF" x="45.212" y="65.024" smashed="yes" rot="R270">
-<attribute name="NAME" x="45.212" y="71.501" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="45.212" y="71.501" size="1.016" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-09538" x="45.212" y="65.024" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.005" y="65.024" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -5850,7 +5850,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="10.3378" y="49.022" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="11.2014" y="47.117" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="52.6034" y="55.9656" rot="R270"/>
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" value=".1uF" x="52.6034" y="55.9656" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.7324" y="56.7116" size="1.016" layer="25" rot="R270"/>
+<attribute name="VALUE" x="50.7034" y="56.9656" size="1.016" layer="27" rot="R270"/>
+</element>
 <element name="C5" library="resistor" package="E2,5-6" value="10uf" x="62.992" y="57.404" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.325" y="55.118" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="65.659" y="60.071" size="1.27" layer="27" ratio="10" rot="R90"/>

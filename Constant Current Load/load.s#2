@@ -30388,7 +30388,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="ASP" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_5X2" device="PTH2"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10uf"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device=""/>
+<part name="V+TO12" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value=".1uF"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
@@ -30670,7 +30670,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <attribute name="NAME" x="-5.5626" y="46.863" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-3.0226" y="46.863" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="A" x="-22.86" y="104.14" rot="R270"/>
+<instance part="V+TO12" gate="A" x="-22.86" y="104.14" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -30735,7 +30735,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="P+17" gate="1" pin="V+"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="V+TO12" gate="A" pin="2"/>
 <wire x1="-21.59" y1="114.3" x2="-22.86" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="114.3" x2="-22.86" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -30790,7 +30790,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="7812" gate="G$1" pin="IN"/>
 <wire x1="-5.08" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="V+TO12" gate="A" pin="1"/>
 <wire x1="-20.32" y1="106.68" x2="-10.16" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-10.16" y="106.68"/>
 </segment>
